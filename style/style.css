@@ -1,0 +1,58 @@
+body{
+/*Witte kantjes van de webpagina afhalen*/ 
+margin-top: 0px;
+margin-left: 0px;
+margin-right: 0px;
+background: "https://i.redd.it/fncb07r39pv01.jpg";
+}
+
+#navbar {
+//margin-left: 0px;
+padding-left: 0px;
+}
+
+
+h1 {
+font-family: 'Lato', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    overflow: hidden;
+    background-color: #303030;
+}
+
+li {
+    float: left;
+	
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+	padding-left: 50px;
+    text-decoration: none;
+	//font-family: 'Lato', sans-serif;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 25px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#pittigejongen {
+margin-left: 100px;
+}
+img {
+height: auto !important;
+width: auto !important;
+min-height: 100% !important;
+min-width: 100% !important;
+left: 50% !important;
+top: 50% !important;}
