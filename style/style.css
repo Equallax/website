@@ -1,14 +1,20 @@
+
+
 body{
 /*Witte kantjes van de webpagina afhalen*/ 
 margin-top: 0px;
 margin-left: 0px;
 margin-right: 0px;
-background: "https://i.redd.it/fncb07r39pv01.jpg";
+//background: "https://i.redd.it/fncb07r39pv01.jpg";
 }
 
 #navbar {
 //margin-left: 0px;
 padding-left: 0px;
+
+z-index: 999;
+background-color: #303030;
+
 }
 
 
@@ -19,13 +25,15 @@ font-family: 'Lato', sans-serif;
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0px 0px;
+    
     overflow: hidden;
     background-color: #303030;
+	
 }
 
 li {
     float: left;
+	
 	
 }
 
@@ -52,14 +60,57 @@ li a:hover {
 #firstphoto {
 height: auto !important;
 width: auto !important;
-min-height: 100% !important;
+//min-height: 120% !important;
 min-width: 100% !important;
 left: 50% !important;
-top: 50% !important;}
+top: 50% !important;
+margin-bottom: 0;
+    display: block;
+    width: 100%;
+    max-width: initial !important;
+    min-width: 1030px;
+    height: auto;
+    bottom: 0;
+}
+
+.parallax {
+	height: 1000px; 
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("https://www.uu.nl/sites/default/files/styles/image_800x400/public/images/beta_oefendokter2.jpg?itok=CPSvRsvj&timestamp=1543230940");
+}
+
+
 
 #logo{
-margin-left: 50px;
-height: 85px !important;
-width: 100px !important;
+margin-left: 30px;
+height: 50px !important;
+width: 60px !important;
+margin-top: 15px;
+margin-bottom: 10px;
+margin-right: 20px;
+}
+
+
+
+.image-container {
+    position: relative;
+    //width: 200px;
+    //height: 300px;
+}
+.image-container .after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    display: none;
+    color: #FFF;
+}
+.image-container .after {
+    display: block;
+    background: rgba(0, 0, 0, .6);
 }
 
