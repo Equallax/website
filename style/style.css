@@ -11,7 +11,9 @@ margin-right: 0px;
 #navbar {
 //margin-left: 0px;
 padding-left: 0px;
-
+position: fixed;
+box-sizing: border-box;
+width: 100%;
 z-index: 999;
 background-color: #303030;
 
@@ -22,18 +24,11 @@ h1 {
 font-family: 'Lato', sans-serif;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    
-    overflow: hidden;
-    background-color: #303030;
-	
-}
+
 
 li {
     float: left;
-	
+	margin-bottom: 0px;
 	
 }
 
@@ -47,11 +42,14 @@ li a {
 	//font-family: 'Lato', sans-serif;
 	font-family: 'Titillium Web', sans-serif;
 	font-size: 25px;
+	margin-bottom: 0px;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
+	color: #FFFF;
     background-color: #111;
+	text-decoration: none;
 }
 
 #pittigejongen {
@@ -88,8 +86,8 @@ margin-bottom: 0;
 margin-left: 30px;
 height: 50px !important;
 width: 60px !important;
-margin-top: 15px;
-margin-bottom: 10px;
+margin-top: 10px;
+margin-bottom: 0px;
 margin-right: 20px;
 }
 
@@ -112,5 +110,12 @@ margin-right: 20px;
 .image-container .after {
     display: block;
     background: rgba(0, 0, 0, .6);
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    overflow: hidden;
+    background-color: #303030;
+	
 }
 
