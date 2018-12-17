@@ -6,6 +6,7 @@ margin-top: 0px;
 margin-left: 0px;
 margin-right: 0px;
 //background: "https://i.redd.it/fncb07r39pv01.jpg";
+background-color: black;
 }
 
 #navbar {
@@ -72,9 +73,9 @@ margin-bottom: 0;
 }
 
 .parallax {
-	height: 1000px; 
+	height: 800px; 
 	background-attachment: fixed;
-	background-position: center;
+	
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("https://www.uu.nl/sites/default/files/styles/image_800x400/public/images/beta_oefendokter2.jpg?itok=CPSvRsvj&timestamp=1543230940");
