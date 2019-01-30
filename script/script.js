@@ -1,5 +1,7 @@
+//Setting variable up for parallax effect
 const woop = document.getElementById("test");
 
+//Decreasing scrollspeed for parallax effect
 
 window.addEventListener("scroll", function()
     {

@@ -1,16 +1,16 @@
 
 
 body{
-/*Witte kantjes van de webpagina afhalen*/ 
-margin-top: 0px;
-margin-left: 0px;
-margin-right: 0px;
-background-color: black;
+    /*Witte kantjes van de webpagina afhalen*/ 
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
 }
 
 
 h1 {
-font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 
