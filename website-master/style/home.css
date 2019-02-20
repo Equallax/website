@@ -1,0 +1,22 @@
+body{
+	background-color: white;
+	
+	
+	
+}
+
+header {
+	margin-top: 10em;
+	margin-left: 20em;
+	margin-right: 20em;
+	float: middle;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
